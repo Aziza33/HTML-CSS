@@ -31,6 +31,8 @@ a{
     margin: 1%;
     /* padding: 5%; */
 }
+
+/* -----------------------------------  HEADER -------------------------------------------------------- */
 .sectionHeader{
     background-image: url(IMG/lilo_stitch_hero_4009_r_e7d96ac6.jpg);
     background-position: center;
@@ -67,37 +69,6 @@ flex-direction: row;
 justify-content: center;
 margin: auto;
 }
-
-.subtitle {
-    background-color: #fffff7;
-    flex-direction: row;
-    justify-content: center;
-    text-decoration: none;
-    margin-top: 1em;
-}
-
-.divCards {
-background-color: #F1F2F3;
-/* position: relative; */
-display: flex;
-min-width: 260px;
-overflow: hidden;
-margin-left: auto;
-margin-right: auto;
-justify-content: center;
-width: 100%;
-margin: auto;
-/* padding: 10%; */
-}
-
-.card{
-    margin: 2em;
-}
-
-.imgCards {
-width: 250px;
-}
-
 
 .divBTN{
     display: flex;
@@ -148,29 +119,127 @@ width: 250px;
     min-width: 200px;
     height: 48px;
 }
-.divSurDisney+{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #054553;
-    /* color: #FFFFFF; */
+
+/* --------------------------------  Section 2 --------------------------------------------------- */
+
+/*  <!-- renommer divCards2 --> */
+.divCards2 {
+background-color: #F1F2F3;
+display: flex;
+overflow: hidden;
+margin-right: auto;
+justify-content: center;
+width: 100%;
+width: 1104px;
+padding-left: 80px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-bottom: 20px;
 }
 
-h1{
+.card2{
+    /* display: flex; */
+    margin: 1%;
+    margin-top: 0%;
+    width: 261px;
+    /* height: 557px; */
+}
+
+.imgCard2 {
+width: 261px;
+height: 300px;
+}
+
+.subtitle2 {
+    background-color: #fffff7;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 0;
+    width: 251px;
+    height: 250px;
+    padding: 2%;
+    font-size: 14px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    
+}
+
+.titleCard2{
+    font-size:140% !important;
+    font-weight: 500;
+    /* padding: 3%; */
+}
+
+.subtitleCard2{
+    display: flex;
+    color: black;
+    margin: 1em;
+    /* flex-direction: row; */
+    /* justify-content: start; */
+    margin-top: 1em;
+    margin: 3%;
+    font-size: smaller;
+
+}
+/* -----------------------------  SECTION 3  ------------------------------------------------ */
+
+.divSection3{
+    background-color: #054553;
+}
+.title {
 color: #FFFFFF;
 display: flex;
 justify-content: center;
 }
 
+.divCards3{
+display: flex;
+justify-content: center;
+min-width: 260px;
+overflow: hidden;
+width: 1104px;
+height: 271px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 20px;
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* width: 100%;  */
+/* margin: auto; */
+}
 
-.imgCard2{
+.card3{
+    margin: 1em;
+    text-align: center;
+    background-color: #054553;
+}
+
+.imgCard3{
     display: flex;
-    width: 300px;
+     width: 330px;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+}
+
+.divBtn{
+    display: flex;
     justify-content: center;
+    color: white;
+    margin: 3em;
+}
+
+.subtitle3{
+    /* display: inline-blo; */
+    color: white;
+    margin: 1em;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 .btn3{
- /* display: flex; */
+    display: flex;
     justify-content: center;
     padding: 1%;
     font-weight: bold;
@@ -179,7 +248,147 @@ justify-content: center;
     border-radius: 24px;
     margin-top: 0;
     margin-left: 2em;
-    margin-bottom: 2em;
+    /* margin-bottom: 1em; */
     min-width: 200px;
     height: 48px;
+}
+
+.subtitleAbonn{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: white;
+    font-size: small;
+    
+}
+
+/* --------------------------   section 4 --------------------------------------------- */
+.titleSection{
+    margin: 0%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color:#F1F2F3;
+    font-size: 30px;
+}
+
+.divCards4 {
+background-color: #F1F2F3;
+/* position: relative; */
+display: flex;
+/* max-width: 260px; */
+/* overflow: hidden; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+justify-content: center;
+max-width: 100%;
+align-items: center;
+width: 1104px;
+height: 271px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 20px;
+/* width: 80%; */
+/* margin: auto; */
+/* padding: 10%; */
+font-size:medium;
+}
+
+.titleCard4{
+    font-size:140% !important;
+    font-weight: 500;
+    /* padding: 3%; */
+}
+.card4{
+    margin: 0.6em;
+    width: 542px;
+    height: 300px;
+
+}
+
+.imgCard4{
+display: flex;
+justify-content: center;
+width: 542px;
+}
+
+
+
+.subtitle4 {
+    background-color: #fffff7;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1em;
+    margin: 0.6em;
+    width: 542px;
+    height: 200px;
+}
+
+/* ----------------------------- SECTION 5 -------------------------------------------------------- */
+
+.titleCard5{
+    font-size:140%;
+    font-weight: 500;
+    /* padding: 3%; */
+}
+
+.imgCard5{
+/* display: flex; */
+/* justify-content: center; */
+width: 261px;
+}
+
+.imgCard4RoiLion{
+/* display: flex; */
+/* justify-content: center; */
+width: 542px;
+height: 300.15px;
+/* height: 345px; */
+}
+
+.divCards5 {
+background-color: #F1F2F3;
+/* position: relative; */
+display: flex;
+/* max-width: 260px; */
+/* overflow: hidden; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+justify-content: center;
+max-width: 100%;
+align-items: center;
+/* width: 80%; */
+/* margin: auto; */
+/* padding: 10%; */
+}
+
+.cardRoiLion{
+    /* width: 50%; */
+    width: 542px;
+    height: 532px;
+    margin: 1em;
+}
+
+.cardAutre{
+    width: 25%;
+    width: 261px;
+    height: 532px;
+    margin: 1em;
+}
+
+.subtitle5 {
+    background-color: #fffff7;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1em;
+    padding: 0.5em;
+    /* width: 520px; */
+    height: 200px;
+}
+
+.subtitleCard5{
+    font-size: small;
 }
