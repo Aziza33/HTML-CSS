@@ -324,6 +324,8 @@ margin-bottom: 0%;
 /* --------------------------   section 4 --------------------------------------------- */
 .divSection4{
     width: 1264px;
+    /* height: 576px; */
+    
 }
 
 .titleSection{
@@ -354,8 +356,6 @@ width: 100%;
     margin: 0%;
     padding: 1%;
     width: 542px;
-    /* height: 300px; */
-
 }
 
 .imgCard4{
@@ -405,14 +405,14 @@ width: 1264px;
 .cardRoiLion{
     /* width: 50%; */
     width: 542px;
-    height: 532px;
+    /* height: 532px; */
     margin: 0.6em;
 }
 
 .cardAutre{
     width: 25%;
     width: 261px;
-    height: 532px;
+    /* height: 532px; */
     margin: 0.6em;
 }
 
@@ -431,3 +431,82 @@ width: 1264px;
 .subtitleCard5{
     font-size: small;
 }
+
+/* ------------------------------- SECTION 6 ------------------------------------------------------------- */
+.divSection6{
+    margin: 0%;
+    padding: 0%;
+    width: 1264px;
+    /* height: 428px; */
+
+}
+#titleCard6{
+    color: #222;
+    font-size: 30px;
+    display: flex;
+    justify-content: center ;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 0%;
+    margin: 3%;
+    padding-bottom: 0px;
+    /* width: 864px; */
+    /* height: 36px; */
+    /* font-size:140%; */
+    font-weight: 500;
+    /* margin-top: 1%; */
+    padding: 0%;
+}
+
+.divCards6 {
+background-color: #F1F2F3;
+padding-right: 80px;
+padding-left: 80px;
+padding-top: 20px;
+padding-bottom: 2%;
+width: 1104px;
+height: 100%;
+/* height: 368px; */
+/* margin: 0.4%; */
+/* overflow: hidden; */
+/* max-width: 100%; */
+}
+
+.card6{
+    /* display: flex; */
+    background-image: url(IMG/NEWshop_disney_generic_banner_fy24_short_hero_v1_ab81a272.jpg);
+    width: 1104px;
+    background-repeat: no-repeat;
+    /* height: 368px; */
+    /* padding-bottom: 40px; */
+    /* margin: 1em; */
+}
+
+.logoSection6{
+    /* display: flex; */
+    width: 322px;
+    height: 78px;
+    padding: 9%;
+    /* padding-bottom: 1px; */
+}
+
+.pSection6{
+display: flex;
+color:#FFFFFF;
+/* flex-direction: start; */
+padding-top: 0%;
+/* margin: 1%; */
+/* margin: 4%; */
+}
+
+.imgCard6{
+width: 1104px;
+height: 368px;
+z-index: -3;
+padding-left: 80%;
+padding-right: 80%;
+margin-top: 0%;
+}
+
+
+
