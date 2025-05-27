@@ -57,11 +57,11 @@ a{
     background-position: center;
     background-size: cover;
     /* max-width: 100%; */
-    width: 1264px;
-    height: 564px;
+    width: 80%;
+    
     /* width: 1104px; */
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .heroIMG{
@@ -85,9 +85,9 @@ margin-bottom: 0;
 
 .logoRouge{
 width: 30%;
-width: 380px;
 text-align: center;
-/* margin: 2%; */
+padding: 3em;
+
 }
 
 .subtitle{
@@ -115,6 +115,7 @@ margin: auto;
 
 .btn1{
     display: flex;
+    justify-content: center;
     padding: 1%;
     color: white;
     font-weight: bold;
@@ -131,20 +132,18 @@ margin: auto;
 }
 
 .btn2{
-    display: flex;
-    justify-content: center;
-    padding: 1%;
+    padding: 1% 1% 1% 1%;
     color: #0d0d0e;
-    font-weight: bold;
+    
     font-size: small;
     font-weight: 600;
     background-color: #f1f2f300;
     border-radius: 24px;
-    margin-top: 0;
+    
     margin-left: 2em;
     margin-bottom: 2em;
     min-width: 200px;
-    height: 48px;
+   
 }
 
 /* --------------------------------  Section 2 --------------------------------------------------- */
@@ -153,19 +152,13 @@ margin: auto;
 .divCards2 {
 background-color: #F1F2F3;
 display: flex;
+flex-wrap: wrap;
 overflow: hidden;
-/* margin-right: auto; */
 justify-content: center;
-/* max-width: 100%; */
-/* width: 1264px; */
-width: 1104px;
+width: 80%;
 padding-top: 2%;
-padding-left: 80px;
-padding-right: 80px;
-padding-bottom: 40px;
-padding-bottom: 20px;
-/* width: 1239px; */
-height: 564px;
+margin: 0 auto
+
 }
 
 .card2{
@@ -218,8 +211,8 @@ height: 300px;
 
 .divSection3{
     background-color: #054553;
-    width: 100%;
-    width: 1264px;
+    width: 80%;
+    margin: 0 auto;
     
 }
 .title {
@@ -240,26 +233,18 @@ margin-bottom: 0.5%;
 
 .divCards3{
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
-overflow: hidden;
-max-width: 100%;
-width: 1104px;
-height: 269px;
-/* padding-left: 10px; */
-/* padding-right: 10px; */
-/* padding-top: 1%; */
-margin-top: 0%;
 padding-left: 80px;
 padding-right: 80px;
 padding-bottom: 20px;
-/* width: 100%;  */
-/* margin: auto; */
+
+
 }
 
 .card3{
     /* display: flex; */
     margin: 1%;
-    margin-top: 0%;
     /* text-align: center; */
     background-color: #054553;
 }
@@ -271,8 +256,6 @@ padding-bottom: 20px;
 
 .subtitle3{
     color: white;
-    /* margin: 1em; */
-    /* flex-direction: row; */
     margin-top: 1em;
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -299,6 +282,7 @@ margin-bottom: 0%;
 
 .btn3{
     display: flex;
+    position:inherit;
     justify-content: center;
     padding: 1%;
     font-weight: bold;
@@ -325,8 +309,8 @@ margin-bottom: 0%;
 
 /* --------------------------   section 4 --------------------------------------------- */
 .divSection4{
-    width: 1264px;
-    /* height: 576px; */
+    width: 80%;
+    margin: 0 auto;
     
 }
 
@@ -340,13 +324,13 @@ margin-bottom: 0%;
 }
 
 .divCards4 {
-background-color: #F1F2F3;
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
-height: 576px;
+background-color: #F1F2F3;
+
 font-size: small;
 width: 100%;
-/* width: 1104px; */
 }
 
 .titleCard4{
@@ -367,21 +351,23 @@ height: 300px;
 
 .subtitle4 {
     background-color: #fffff7;
-    /* display: flex; */
-    flex-direction: row;
-    justify-content: center;
     text-decoration: none;
     padding: 1%;
-    margin-top: 0;
     height: 200px;
 }
 
 /* ----------------------------- SECTION 5 -------------------------------------------------------- */
-
+.titleSection5{
+    display: flex;
+    justify-content: center;
+    background-color:#F1F2F3;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
 .titleCard5{
     font-size:140%;
     font-weight: 500;
-    /* padding: 3%; */
 }
 
 .imgCard5{
@@ -395,17 +381,14 @@ height: 300.15px;
 
 .divCards5 {
 background-color: #F1F2F3;
-/* position: relative; */
 display: flex;
 justify-content: center;
-width: 1264px;
-/* width: 1164px; */
-/* overflow: hidden; */
-/* max-width: 100%; */
+flex-wrap: wrap;
+width: 80%;
+margin: 0 auto;
 }
 
 .cardRoiLion{
-    /* width: 50%; */
     width: 542px;
     /* height: 532px; */
     margin: 0.6em;
@@ -426,7 +409,7 @@ width: 1264px;
     margin-top: 0em;
     padding: 0.5em;
     /* width: 520px; */
-    height: 200px;
+    /* height: 200px; */
     font-size: small;
 }
 
@@ -436,13 +419,8 @@ width: 1264px;
 
 /* ------------------------------- SECTION 6 ------------------------------------------------------------- */
 .divSection6{
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0%;
-    width: 1264px;
-    /* margin: -2%; */
-    /* height: 428px; */
+    margin: 0 auto;
+    width: 80%;
 
 }
 #titleCard6{
@@ -450,112 +428,107 @@ width: 1264px;
     font-size: 30px;
     display: flex;
     justify-content: center ;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-top: 0%;
     margin: 3%;
     padding-bottom: 0px;
-    /* width: 864px; */
-    /* height: 36px; */
-    /* font-size:140%; */
     font-weight: 500;
-    /* margin-top: 1%; */
-    padding: 0%;
 }
 
 .divCards6 {
 background-color: #F1F2F3;
+margin: 0 auto;
 padding-right: 80px;
 padding-left: 80px;
 padding-top: 20px;
 padding-bottom: 2%;
-width: 1104px;
-height: 100%;
-/* height: 368px; */
-/* margin: 0.4%; */
-/* overflow: hidden; */
-/* max-width: 100%; */
 }
 
 .card6{
     /* display: flex; */
     background-image: url(IMG/NEWshop_disney_generic_banner_fy24_short_hero_v1_ab81a272.jpg);
-    width: 1104px;
     background-repeat: no-repeat;
-    /* height: 368px; */
-    /* padding-bottom: 40px; */
-    /* margin: 1em; */
+    background-position: center;
+    background-size: contain;
+   padding: 16%;
+
 }
 
 .logoSection6{
-    /* display: flex; */
-    width: 322px;
-    height: 78px;
-    /* padding: 9%; */
-    padding-top: 9%;
+    display: block;
+    width: 25%;
     padding-left: 9%;
-    padding-bottom: 1%;
-    /* padding-bottom: 1px; */
+    padding-bottom: 0;
+    padding-top: 13%;
 }
 
 .pSection6{
-/* display: flex; */
-/* justify-content: center; */
+    display: block;
+width: 25%;
 color:#FFFFFF;
-/* flex-direction: start; */
-padding-top: 0%;
-padding-left: 10%;
- padding-bottom: 3%;
- /* align-items:flex-start; */
- display: block;
-    /* margin-block-start: 1em; */
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-/* margin: 1%; */
-/* margin: 4%; */
+padding-left: 9%;
+ padding-bottom: 13%;
 }
 
-#pSection6{
-    /* display: flex; */
-    margin-top: 0%;
-    /* justify-content: center; */
-}
-#prefere{
-padding-left: 11%;
-padding-bottom: 0%;
-margin-bottom: 0%;
-}
 #decouvrir{
+    width: 25%;
     padding-left: 9%;
-    padding-top: 0%;
     margin-top: -3%;
-    width: 112px;
-    height: 24px;
     font-size: 1rem;
     font-weight: bold;
-    /* position: absolute; */
-    /* top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0; */
-    /* z-index: 3; */
 }
 .imgCard6{
-width: 1104px;
-height: 368px;
-z-index: -3;
-padding-left: 80%;
-padding-right: 80%;
-margin-top: 0%;
+width: 100%;
 }
 
 /* ------------------------------------  SECTION 7  -------------------------------------------- */
 
-/* .h1Section7{
+.divSection7{
+    background-color: #F1F2F3;
+    width: 80%;
+    margin: 0 auto;    
+}
+.title {
+color: #FFFFFF;
+color: #222;
+font-size: 30px;
+font-weight: normal;
+/* display: flex;
+justify-content: center;
+font-size: 1.2em; */
+/* padding-top: 10px;
+padding-left: 80px;
+padding-right: 80px;
+padding-bottom: 1%;
+margin-bottom: 0.5%; */
+}
+
+.divCards7{
+width: 80%;
+margin: 0 auto;  
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+overflow: hidden;
+margin: 0 auto;
+}
+
+.card7{
+    width: 201px;
     margin: 1%;
-} */
+}
+
+.imgCard7{
+     width: 201px;
+}
+
+.subtitle7{
+    color: #222;
+    margin-top: 1em;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 1%;
+}
+
+
  /* ----------------------------------  MENU BURGER  ---------------------------------------------- */
 
  /* -------------------- NAVBAR BURGER ------------------------------------ */
@@ -745,7 +718,7 @@ a{
 }
 
 .heroIMG{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     max-width: 100%;
     /* width: 1264px; */
@@ -826,26 +799,16 @@ margin: auto;
 /* --------  Section 2 ------------------ */
 
 .divCards2 {
-background-color: #F1F2F3;
-display: flex;
-/* overflow: hidden; */
-/* justify-content: center; */
-max-width: 100%;
-/* width: 437px; */
-padding-top: 2%;
-padding-left: 0;
-padding-right: 0;
-padding-bottom: 0;
-/* height: 564px; */
-}
 
+}
 .card2{
-    margin: 1%;
+    /* margin: 1%; */
+    flex-wrap: wrap;
     margin-top: 0%;
     max-width: 100%;
     /* max-width: 437px; */
     /* height: 532px; */
-    max-height: 100%;
+    /* max-height: 100%; */
 }
 
 .imgCard2 {
@@ -858,8 +821,8 @@ padding-bottom: 0;
 
 .subtitle2 {
     background-color: #fffff7;
-    flex-direction: row;
-    justify-content: center;
+    /* flex-direction: row; */
+    /* justify-content: center; */
     text-decoration: none;
     margin-top: 0;
     max-width: 100%;
@@ -876,7 +839,7 @@ padding-bottom: 0;
 }
 
 .subtitleCard2{
-    display: flex;
+    /* display: flex; */
     color: black;
     margin: 1em;
     margin-top: 1em;
@@ -893,8 +856,8 @@ padding-bottom: 0;
 }
 .title {
 color: #FFFFFF;
-display: flex;
-justify-content: center;
+/* display: flex; */
+/* justify-content: center; */
 font-size: 1.2em;
 /* font-size: 30px; */
 font-weight: normal;
@@ -906,9 +869,9 @@ margin-bottom: 0.5%;
 }
 
 .divCards3{
-display: flex;
-justify-content: center;
-overflow: hidden;
+/* display: flex; */
+/* justify-content: center; */
+/* overflow: hidden; */
 max-width: 100%;
 /* width: 1104px; */
 /* height: 269px; */
@@ -945,9 +908,9 @@ margin-bottom: 0%;
     margin-top: 0%;
 }
 .divBtn{
-    display: flex;
-    justify-content: center;
-    flex-direction: row !important;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: row !important; */
     color: white;
     /* width: 960px; */
     /* height: 48px; */
@@ -955,8 +918,8 @@ margin-bottom: 0%;
 }
 
 .btn3{
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     padding: 1%;
     font-weight: bold;
     font-size: 16px;
@@ -969,7 +932,7 @@ margin-bottom: 0%;
 
 .subtitleAbonn{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 3%;
     padding-top: 0%;
     padding-bottom: 5%;
