@@ -1,463 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Html/CSS</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Ajout lien pour police de caractère InspireTWDC -->
-    <link href="https://db.onlinewebfonts.com/c/130a63bec7d0efc605bbe6253a27de98?family=InspireTWDC" rel="stylesheet">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  </head>
 
-  <body>
-    <!-- ------------------  HEADER  ------------------------------------------>
-    <header>
-      <div class="header">
-        <div>
-          <img class="logo" src="IMG/logoNB.png" alt="Logo disney" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <title>Html/CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap"
+    rel="stylesheet" />
+  <!-- Ajout lien pour police de caractère InspireTWDC -->
+  <link href="https://db.onlinewebfonts.com/c/130a63bec7d0efc605bbe6253a27de98?family=InspireTWDC" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <!-- ------------------  HEADER  ------------------------------------------>
+  <header>
+    <div class="header">
+      <div>
+        <img class="logo" src="IMG/logoNB.png" alt="Logo disney" />
+      </div>
+      <div>
+        <nav class="navBar">
+          <ul>
+            <li><a href="#"></a>DISNEY+</li>
+            <li><a href="link/services.html"></a>BOUTIQUE</li>
+            <li><a href="produits.html"></a>FILMS</li>
+            <li><a href="contact.html"></a>PARCS</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- --------------------------   MENU BURGER  ---------------------------------------------------- -->
+
+  <div class="menuBurger">
+    <nav class="mobilescreen">
+      <div title="Menu" id="menuToggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li>
+            <a href="#">Disney+
+            </a>
+          </li>
+          <li><a href="#">Boutique
+            </a>
+          </li>
+          <li><a href="#">Films
+            </a>
+          </li>
+          <li>
+            <a href="#">Parc
+            </a>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- ---------------------------  FIN MENU BURGER --------------------------------------------------- -->
+  <main>
+
+    <!-----------------------------  SECTION HEADER   --------------------------------------------->
+    <section>
+      <div class="sectionHeader">
+        <div >
+          <img class="heroIMG" src="IMG/lilo_stitch_hero_4009_r_e7d96ac6.jpg" alt="Lilo et Stitch">
         </div>
-        <div>
-          <nav class="navBar">
-            <ul>
-              <li><a href="#"></a>DISNEY+</li>
-              <li><a href="link/services.html"></a>BOUTIQUE</li>
-              <li><a href="produits.html"></a>FILMS</li>
-              <li><a href="contact.html"></a>PARCS</li>
-            </ul>
-          </nav>
+        <div class="divLogoRouge">
+          <!-- <img class="logoRouge" src="IMG/LiloRougeRemoveBG.png" alt="lilo" /> -->
+          <img class="logoRouge" src="IMG/lilo_stitch_logo-eng_4009_bc5e39a4.png" alt="lilo" />
+        <p> <span class="actuellement">Actuellement au cinéma</span></p>
+        </div>
+        <div class="divBtnStitch">
+          <button class="btn1 btn">RESERVER VOS BILLETS</button>
+          <button class="btn2 btn">EN SAVOIR PLUS</button>
         </div>
       </div>
-    </header>
-    <!-- --------------------------   MENU BURGER  ---------------------------------------------------- -->
-
-      <div class="menuBurger">
-          <nav class="mobilescreen">
-  <div title="Menu" id="menuToggle">
-<input type="checkbox">
-      <span></span>
-      <span></span>
-      <span></span>
-       <ul id="menu">
-        <li>
-          <a href="#">Disney+
-          </a>
-         </li>
-         <li><a href="#">Boutique
-         </a>
-         </li>
-         <li><a href="#">Films
-         </a>
-         </li>
-            <li>
-             <a href="#">Parc
-             </a>
-        </ul>
-    </div>
-</nav>
-     </div>
-   <!-- ---------------------------  FIN MENU BURGER --------------------------------------------------- -->
-    <main>
-
-      <!-----------------------------  SECTION HEADER   --------------------------------------------->
-      <section>
-        <div class="sectionHeader">
-          <div class="divLogoRouge">
-            <img class="logoRouge" src="IMG/LiloRougeRemoveBG.png" alt="lilo" />
-            <p class="textLogoRouge">Actuellement au cinéma</p>
-            <button class="btn1 btn">RESERVER VOS BILLETS</button>
-            <button class="btn2 btn">EN SAVOIR PLUS</button>
-          </div>
-        </div>
-      </section>
-      <!------------------------------------  SECTION 2  --------------------------------------------->
-      <section>
-        <!-- renommer divCards2 -->
-        <div class="divCards2">
-          <!-- renommer card2 -->
-          <div class="card2">
-            <img
-              class="imgCard2"
-              src="IMG/NEW1ds_stitch_live_action_q3_fy25_v1_po_4015_r_621ca12f (2).jpg"
-              alt="disney"
-            />
-            <!-- renommer subtitle2 -->
-            <div class="subtitle2">
-                <div>
-                  <!-- RENOMMER titleCard2 -->
-                    <p class="titleCard2">
-                    Des peluches aux objets de collection
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    L'expérience 626 est dans la place !
-                    <br />Voir la collection
-                    <br /><br/><br>
-                    <strong class="subtitleCard2">BOUTIQUE</strong>
-                    </p>
-                </div>
-                </div>
-                <!-- ------------------ -->
-          </div>
-           <!-- renommer card2 -->
-          <div class="card2">
-            <img
-              class="imgCard2"
-              src="IMG/NEW2eu_andor-s2_po_r_3aa16de1 (2).jpg"
-              alt=""
-            />
-            <!--  renommer subtitle2 -->
-            <div class="subtitle2">
-                <div>
-                  <!-- RENOMMER titleCard2 -->
-                    <p class="titleCard2">
-                    Andor - Saison 2
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Maintenant en streaming sur Disney+.
-                    <br /><br />
-                    <strong class="subtitleCard2">DISNEY +</strong>
-                    </p>
-                </div>
-                </div>
-          </div>
-
-          <div class="card2">
-            <img
-              class="imgCard2"
-              src="IMG/NEW3eu_thunderbolts_po_r_1883bdde (1).jpg"
-              alt="disney"
-            />
-            <div class="subtitle2">
-                <div>
-                  <!-- RENOMMER titleCard2 -->
-                    <p class="titleCard2">
-                    Thunderbolts*
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Maintenant au cinéma.
-                    <br /><br />
-                    <strong class="subtitleCard2">FILMS</strong>
-                    </p>
-                </div>
-                </div>
-            <!--  -->
-              
-            <!--  -->
-          </div>
-          <div class="card2">
-            <img
-              class="imgCard2"
-              src="IMG/NEW4wdw_emea_2-free-days-ticket-offer_po_4006_r_dedf1452 (1).jpg"
-              alt="disney"
-            />
-            <div class="subtitle2">
-                <div>
-                  <!-- RENOMMER titleCard2 -->
-                    <p class="titleCard2">
-                    2 jours offerts !
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Réservez un billet 6 jours et ne payez que 4 jours à certaines dates. 
-                    Bénéficiez de 2 jours supplémentaires offerts pour explorer nos 4 parcs Disney en Floride ! 
-                    Réservez avant le 16 juin 2025.
-                    <br /><br />
-                    <strong class="subtitleCard2">WALT DISNEY WORLD</strong>
-                    </p>
-                </div>
-                </div>
-          </div>
-        </div>
-      </section>
-<!-- <*-------------------------------    Section 3 Disney+ ------------------------------------------------>
-      <section>
-        <div class="divSection3">
-            <div class="title">
-                <h1 class="title">Sur Disney+</h1>
-            </div>
-            <div class="divCards3">
-                <div class="card3">
-                    <img
-                        class="imgCard3"
-                        src="IMG/en_doctor-who-s2_thumbnail_40c3877b.jpg"
-                        alt="Dr Who"
-                    />
-                    <div class="subtitle3">
-                        <p class="pSection3">Docteur Who</p>
-                    </div>
-                </div>
-                
-
-                <div class="card3">
-                    <img
-                        class="imgCard3"
-                        src="IMG/en_the-stolen-girl_thumbnail_staroriginal_pcon_90de0025.jpg"
-                        alt="Dr Who"
-                    />
-                    <div class="subtitle3">
-                        <p class="pSection3">The Stolen Girl<br /></p>
-                        <p id="pControleParental">Avec contrôle parental</p>
-                    </div>
-                </div>
-
-                <div class="card3">
-                    <img
-                        class="imgCard3"
-                        src="IMG/fr_secrets-of-the-penguins_thumbnail_4926e51b.jpg"
-                        alt="Dr Who"
-                    />
-                    <div class="subtitle3">
-                        <p>Les secrets des manchots</p>
-                    </div>
-                </div>
-            </div>
-            <div class="divBtn">
-                <button class="btn3">S'INSCRIRE*</button>
-            </div>
-            <div class="subtitleAbonn">
-                 <p >* Abonnement requis | Offres dès 5,99 EUR par mois.</p> 
-            </div> 
-          
-        </div>
     </section>
-      <!-------------------------------  SECTION 4----------------------------------------------->
-
-        <section>
-        <div class="divSection4">
-          <div><p class="titleSection">Parcs</p></div>
-            <div class="divCards4">
-      
-            <div class="card4">
-               
-                <img
-                class="imgCard4"
-                src="IMG/dlp_castleshow_c169_r_v2_db510060.jpg"
-                alt="disney"/>
-                <div class="subtitle4">
-                <div>
-                    <p class="titleCard4">
-                    La magie prend vie sous vos yeux, ressentez ses merveilles
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Le tout nouveau spectacle nocturne éblouissant
-                    <i>Disney Tales of Magic*</i> illumine le ciel du Parc
-                    Disneyland ! <br /><i>Disney et la magie des Contes</i>
-                    <br /><br />
-                    <strong class="subtitleCard4">DISNEYLAND PARIS</strong>
-                    </p>
-                </div>
-                </div>
+    <!-----------------------------  SECTION 2  --------------------------------------------->
+    <section>
+      <!-- renommer divCards2 -->
+      <div class="divCards2">
+        <!-- renommer card2 -->
+        <div class="card2">
+          <img class="imgCard2" src="IMG/NEW1ds_stitch_live_action_q3_fy25_v1_po_4015_r_621ca12f (2).jpg"
+            alt="disney" />
+          <!-- renommer subtitle2 -->
+          <div class="subtitle2">
+            <div>
+              <!-- RENOMMER titleCard2 -->
+              <p class="titleCard2">
+                Des peluches aux objets de collection
+              </p>
             </div>
-            <div class="card4">
-                <img
-                class="imgCard4"
-                src="IMG/dcl_summer_itineraries_fy24_c169_v2_7a332560.jpg"
-                alt="donald"
-                />
-                <div class="subtitle4">
-                    <div>
-                    <p class="titleCard4">
-                     Itinéraires pour l'été 2025
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Jetez l'encre dans une des destinations magiques autour du monde
-                    en été 2025 :
-                    <br />
-                    Europe, Caraïtbes, Bahamas, Alaska et bien plus encore !
-                    <br /><br /><br><br>
-                    <strong class="subtitleCard4">DISNEY CRUISE LINE</strong>
-                    </p>
-                </div>
-                <!-- <a href="https://www.disneyplus.com/fr-fr/browse/entity-faba988a-a9f5-45f2-a074-0775a7d6f67a?cid=DTCI-Synergy-DDN-Site-Acquisition-FRSustain-FR-StarWars-Andor-FR-Homepage-disney.fr_sustain_andor-NA">Anchor -->
-                </div>
-            </div>
+            <div>
+              <p>
+                L'expérience 626 est dans la place !
+                <br />Voir la collection
+                <br /><br /><br>
+                <strong class="subtitleCard2">BOUTIQUE</strong>
+              </p>
             </div>
           </div>
-        </section>
-
-        <!-- ------------------------------------------- SECTION 5  --------------------------------------------------------->
-
-         <section>
-          <div><p class="titleSection5">Spectacles</p></div>
-            <div class="divCards5">
-            <div class="cardRoiLion">
-                <img
-                class="imgCard4RoiLion"
-                src="IMG/uk_lio-mus_c169_r_33e4b8db.jpg"
-                alt="disney"/>
-                <div class="subtitle5">
-                <div>
-                    <p class="titleCard5">
-                    Le Roi Lion
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    L'événement musical revient à Paris au théâtre Mogador.
-                    <br />
-                    <br /><br /><br><br><br>
-                    <strong class="subtitleCard5">SPECTACLES</strong>
-                    </p>
-                </div>
-                </div>
+          <!-- ------------------ -->
+        </div>
+        <!-- renommer card2 -->
+        <div class="card2">
+          <img class="imgCard2" src="IMG/NEW2eu_andor-s2_po_r_3aa16de1 (2).jpg" alt="" />
+          <!--  renommer subtitle2 -->
+          <div class="subtitle2">
+            <div>
+              <!-- RENOMMER titleCard2 -->
+              <p class="titleCard2">
+                Andor - Saison 2
+              </p>
             </div>
-            <div class="cardAutre">
-                <img
-                class="imgCard5"
-                src="IMG/d100-exhibition_po_r_1586c593.jpg"
-                alt="Le Roi Lion"
-                />
-                <div class="subtitle5">
-                    <div>
-                    <p class="titleCard5">
-                     Disney100 : <br>L'Exposition
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Ouverture le 10 avril 2025 à Paris Expo Porte de Versailles. Les billets sont maintenant en vente.
-                    <br />
-
-                    <br/><br>
-                    <strong class="subtitleCard5">SPECTACLES</strong><br>
-                    </p>
-                </div>
-                </div>
+            <div>
+              <p>
+                Maintenant en streaming sur Disney+.
+                <br /><br />
+                <strong class="subtitleCard2">DISNEY +</strong>
+              </p>
             </div>
-             <div class="cardAutre">
-                <img
-                class="imgCard5"
-                src="IMG/disney-in-concert_marvel-infinity-saga_po_r_2_64e14535.jpg"
-                alt="donald"
-                />
-                <div class="subtitle5">
-                    <div>
-                    <p class="titleCard5">
-                     Marvel Studio's Infinity Saga Concert Experience
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Les billets pour la tournée française 2025 sont désormais en vente.
-                    <br />
-                   
-                    <br /><br /><br>
-                    <strong class="subtitleCard5">SPECTACLES</strong>
-                    </p>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-----------------------    SECTION 6    --------------------------------------------->
-
-      <section>
-        <div class="divSection6">
-
-          <div class="divCards6">
-            <div class="titleCard6">
-            <p id="titleCard6">
-              Boutique
-            </p>
           </div>
-            <div class="card6">
-              <img class="logoSection6" src="IMG/NEWshop_disney_logo_fr_5bc547df.png" alt="LOGO">
-              <div class="pSection6">
-                <p id="pSection6">
-                  Revivez en famille la magie de vos contes préférés</p> <br><br>
-                <p id="decouvrir">
-                  DECOUVRIR
+        </div>
+
+        <div class="card2">
+          <img class="imgCard2" src="IMG/NEW3eu_thunderbolts_po_r_1883bdde (1).jpg" alt="disney" />
+          <div class="subtitle2">
+            <div>
+              <!-- RENOMMER titleCard2 -->
+              <p class="titleCard2">
+                Thunderbolts*
+              </p>
+            </div>
+            <div>
+              <p>
+                Maintenant au cinéma.
+                <br /><br />
+                <strong class="subtitleCard2">FILMS</strong>
+              </p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+        </div>
+        <div class="card2">
+          <img class="imgCard2" src="IMG/NEW4wdw_emea_2-free-days-ticket-offer_po_4006_r_dedf1452 (1).jpg"
+            alt="disney" />
+          <div class="subtitle2">
+            <div>
+              <!-- RENOMMER titleCard2 -->
+              <p class="titleCard2">
+                2 jours offerts !
+              </p>
+            </div>
+            <div>
+              <p>
+                Réservez un billet 6 jours et ne payez que 4 jours à certaines dates.
+                Bénéficiez de 2 jours supplémentaires offerts pour explorer nos 4 parcs Disney en Floride !
+                Réservez avant le 16 juin 2025.
+                <br /><br />
+                <strong class="subtitleCard2">WALT DISNEY WORLD</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <*----------------------------    SECTION 3 Disney+ ------------------------------------------------>
+    <section>
+      <div class="divSection3">
+        <div class="title">
+          <h1 class="title">Sur Disney+</h1>
+        </div>
+        <div class="divCards3">
+          <div class="card3">
+            <img class="imgCard3" src="IMG/en_doctor-who-s2_thumbnail_40c3877b.jpg" alt="Dr Who" />
+            <div class="subtitle3">
+              <p class="pSection3">Docteur Who</p>
+            </div>
+          </div>
+
+
+          <div class="card3">
+            <img class="imgCard3" src="IMG/en_the-stolen-girl_thumbnail_staroriginal_pcon_90de0025.jpg" alt="Dr Who" />
+            <div class="subtitle3">
+              <p class="pSection3">The Stolen Girl<br /></p>
+              <p id="pControleParental">Avec contrôle parental</p>
+            </div>
+          </div>
+
+          <div class="card3">
+            <img class="imgCard3" src="IMG/fr_secrets-of-the-penguins_thumbnail_4926e51b.jpg" alt="Dr Who" />
+            <div class="subtitle3">
+              <p>Les secrets des manchots</p>
+            </div>
+          </div>
+        </div>
+        <div class="divBtn">
+          <button class="btn3">S'INSCRIRE*</button>
+        </div>
+        <div class="subtitleAbonn">
+          <p>* Abonnement requis | Offres dès 5,99 EUR par mois.</p>
+        </div>
+
+      </div>
+    </section>
+    <!----------------------------   SECTION 4      ----------------------------------------------->
+
+    <section>
+      <div class="divSection4">
+        <div>
+          <p class="titleSection">Parcs</p>
+        </div>
+        <div class="divCards4">
+
+          <div class="card4">
+
+            <img class="imgCard4" src="IMG/dlp_castleshow_c169_r_v2_db510060.jpg" alt="disney" />
+            <div class="subtitle4">
+              <div>
+                <p class="titleCard4">
+                  La magie prend vie sous vos yeux, ressentez ses merveilles
+                </p>
+              </div>
+              <div>
+                <p>
+                  Le tout nouveau spectacle nocturne éblouissant
+                  <i>Disney Tales of Magic*</i> illumine le ciel du Parc
+                  Disneyland ! <br /><i>Disney et la magie des Contes</i>
+                  <br /><br />
+                  <strong class="subtitleCard4">DISNEYLAND PARIS</strong>
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- /* ------------------------------------  SECTION 7  -------------------------------------------- */ -->
-
-      <section>
-        <div class="divSection7">
-            <div class="title">
-                <h1 class="title">Films</h1>
+          <div class="card4">
+            <img class="imgCard4" src="IMG/dcl_summer_itineraries_fy24_c169_v2_7a332560.jpg" alt="donald" />
+            <div class="subtitle4">
+              <div>
+                <p class="titleCard4">
+                  Itinéraires pour l'été 2025
+                </p>
+              </div>
+              <div>
+                <p>
+                  Jetez l'encre dans une des destinations magiques autour du monde
+                  en été 2025 :
+                  <br />
+                  Europe, Caraïtbes, Bahamas, Alaska et bien plus encore !
+                  <br /><br /><br><br>
+                  <strong class="subtitleCard4">DISNEY CRUISE LINE</strong>
+                </p>
+              </div>
+              <!-- <a href="https://www.disneyplus.com/fr-fr/browse/entity-faba988a-a9f5-45f2-a074-0775a7d6f67a?cid=DTCI-Synergy-DDN-Site-Acquisition-FRSustain-FR-StarWars-Andor-FR-Homepage-disney.fr_sustain_andor-NA">Anchor -->
             </div>
-            <div class="divCards7">
-                <div class="card7">
-                    <img
-                        class="imgCard7"
-                        src="IMG/image_c7f75d33.jpg"
-                        alt="Captain America"
-                    />
-                    <div class="subtitle7">
-                        <p class="pSection7">Captain America: Brave New World</p>
-                    </div>
-                </div>
-    
-                <div class="card7">
-                    <img
-                        class="imgCard7"
-                        src="IMG/image_a424077e.jpg"
-                        alt="Blanche Neige"
-                    />
-                    <div class="subtitle7">
-                        <p class="pSection7">Blanche Neige</p>
-                    </div>
-                </div>
-
-                <div class="card7">
-                    <img
-                        class="imgCard7"
-                        src="IMG/image_e1d891ea.jpg"
-                        alt="Thunderbolts"
-                    />
-                    <div class="subtitle7">
-                        <p class="pSection7">Thunderbolts*</p>
-                    </div>
-                </div>
-
-                <div class="card7">
-                    <img
-                        class="imgCard7"
-                        src="IMG/image_2469ed4e.jpg"
-                        alt="Lilo & Stitch"
-                    />
-                    <div class="subtitle7">
-                        <p class="pSection7">Lilo & Stitch</p>
-                    </div>
-                </div>
-
-              
-                <div class="card7">
-                    <img
-                        class="imgCard7"
-                        src="IMG/image_d404e3d8.jpg"
-                        alt="Elio"
-                    />
-                    <div class="subtitle7">
-                        <p class="pSection7">Elio</p>
-                    </div>
-                </div>
-
-            </div>
-          
+          </div>
         </div>
+      </div>
     </section>
-    </main>
-  </body>
+
+    <!-- ------------------------- SECTION 5  --------------------------------------------------------->
+
+    <section>
+      <div>
+        <p class="titleSection5">Spectacles</p>
+      </div>
+      <div class="divCards5">
+        <div class="cardRoiLion">
+          <img class="imgCard4RoiLion" src="IMG/uk_lio-mus_c169_r_33e4b8db.jpg" alt="disney" />
+          <div class="subtitle5">
+            <div>
+              <p class="titleCard5">
+                Le Roi Lion
+              </p>
+            </div>
+            <div>
+              <p>
+                L'événement musical revient à Paris au théâtre Mogador.
+                <br />
+                <br /><br /><br><br><br>
+                <strong class="subtitleCard5">SPECTACLES</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cardAutre">
+          <img class="imgCard5" src="IMG/d100-exhibition_po_r_1586c593.jpg" alt="Le Roi Lion" />
+          <div class="subtitle5">
+            <div>
+              <p class="titleCard5">
+                Disney100 : <br>L'Exposition
+              </p>
+            </div>
+            <div>
+              <p>
+                Ouverture le 10 avril 2025 à Paris Expo Porte de Versailles. Les billets sont maintenant en vente.
+                <br />
+
+                <br /><br>
+                <strong class="subtitleCard5">SPECTACLES</strong><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cardAutre">
+          <img class="imgCard5" src="IMG/disney-in-concert_marvel-infinity-saga_po_r_2_64e14535.jpg" alt="donald" />
+          <div class="subtitle5">
+            <div>
+              <p class="titleCard5">
+                Marvel Studio's Infinity Saga Concert Experience
+              </p>
+            </div>
+            <div>
+              <p>
+                Les billets pour la tournée française 2025 sont désormais en vente.
+                <br />
+
+                <br /><br /><br>
+                <strong class="subtitleCard5">SPECTACLES</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------      SECTION 6    --------------------------------------------->
+
+    <section>
+      <div class="divSection6">
+
+        <div class="divCards6">
+          <div class="titleCard6">
+            <p id="titleCard6">
+              Boutique
+            </p>
+          </div>
+          <div class="card6">
+            <img class="logoSection6" src="IMG/NEWshop_disney_logo_fr_5bc547df.png" alt="LOGO">
+            <div class="pSection6">
+              <p id="pSection6">
+                Revivez en famille la magie de vos contes préférés</p> <br><br>
+              <p id="decouvrir">
+                DECOUVRIR
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /* ------------------ ----  SECTION 7  -------------------------------------------- */ -->
+
+    <section>
+      <div class="divSection7">
+        <div class="title">
+          <h1 class="title">Films</h1>
+        </div>
+        <div class="divCards7">
+          <div class="card7">
+            <img class="imgCard7" src="IMG/image_c7f75d33.jpg" alt="Captain America" />
+            <div class="subtitle7">
+              <p class="pSection7">Captain America: Brave New World</p>
+            </div>
+          </div>
+
+          <div class="card7">
+            <img class="imgCard7" src="IMG/image_a424077e.jpg" alt="Blanche Neige" />
+            <div class="subtitle7">
+              <p class="pSection7">Blanche Neige</p>
+            </div>
+          </div>
+
+          <div class="card7">
+            <img class="imgCard7" src="IMG/image_e1d891ea.jpg" alt="Thunderbolts" />
+            <div class="subtitle7">
+              <p class="pSection7">Thunderbolts*</p>
+            </div>
+          </div>
+
+          <div class="card7">
+            <img class="imgCard7" src="IMG/image_2469ed4e.jpg" alt="Lilo & Stitch" />
+            <div class="subtitle7">
+              <p class="pSection7">Lilo & Stitch</p>
+            </div>
+          </div>
+
+
+          <div class="card7">
+            <img class="imgCard7" src="IMG/image_d404e3d8.jpg" alt="Elio" />
+            <div class="subtitle7">
+              <p class="pSection7">Elio</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!------------------    SECTION 8  --------------------------->
+
+    <section>
+      <div class="divSection8">
+
+        <div class="divCards8">
+          <div class="titleCard8">
+            <p id="titleCard8">
+              Plus d'actus
+            </p>
+          </div>
+          <div class="card8">
+            <!-- <img class="logoSection6" src="IMG/crm-generic_short-hero_r_e8f9f2e1.jpg" alt="LOGO"> -->
+            <div class="pSection6">
+              <p id="pSection6">
+                inscrivez-vous pour recevoir les actualités Disney et plus encore</p> <br><br>
+              <button id="btnRejoignez">
+                REJOIGNEZ LA FAMILLE DISNEY
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+</body>
+
 </html>

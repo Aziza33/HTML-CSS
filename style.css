@@ -22,13 +22,10 @@ body{
 
 .header 
 {
-    display: flex;
-    /* justify-content: space-between; */
-   
+    display: flex;   
 }
 .logo{
     width: 100px;
-    /* margin: 5%; */
 }
 
 ul, li{
@@ -46,48 +43,59 @@ a{
 .navBar{
     display: flex;
     margin: 1%;
-    /* padding: 5%; */
-    /* width: 1254px;
-    height: 67px; */
 }
 
 /* -----------------------------------  HEADER -------------------------------------------------------- */
 .sectionHeader{
-    background-image: url(IMG/lilo_stitch_hero_4009_r_e7d96ac6.jpg);
-    background-position: center;
-    background-size: cover;
-    /* max-width: 100%; */
-    width: 80%;
-    
-    /* width: 1104px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0 auto;
+    background-position: center;
+    overflow: hidden;
+    /* background-image: url(IMG/lilo_stitch_hero_4009_r_e7d96ac6.jpg); */
+    /* background-size: cover; */
+    /* max-width: 100%; */
+    /* width: 80%; */
 }
 
 .heroIMG{
-    display: flex;
-    justify-content: center;
-    /* z-index: 1; */
-    width: 1264px;
     transition: transform .5s ease;
+    max-width: 100%;
+    height: auto;
 }
 .heroIMG:hover{
-/* -ms-transform: scale(1.5); /* IE 9 */
-/* -webkit-transform: scale(1.5); Safari 3-8 */ 
 transform: scale(1.05);
 }
 
 .divLogoRouge{
+position: absolute;
+flex-wrap: wrap;
 margin: 9em;
 margin-top: 0;
 margin-bottom: 0;
+/* width: 100%; */
 }
 
 .logoRouge{
-width: 30%;
+position: absolute;
+flex-wrap: wrap;
+top: -250px;
+/* top: -286px; */
+left: -530px;
+left: -566px;
+/* left: 330px; */
 text-align: center;
-padding: 3em;
+padding: 2em;
+/* ajout media */
+max-width: 350px;
+}
 
+.actuellement{
+position: absolute;
+top: 75px;
+left: -438px;
 }
 
 .subtitle{
@@ -97,10 +105,21 @@ justify-content: center;
 margin: auto;
 }
 
-.divBTN{
-    display: flex;
+.divBtnStitch{
+    position: absolute;
+    flex-wrap: wrap;
+    top: 400px;
+    left: 130px;
+    /* top: 440px; */
+    /* left: 235px; */
+    /* top: 487px; */
+    /* left:  225px; */
+    /* top: 380px; */
+
+    /* top: 360px;
+    left: 227px; */
     justify-content: center;
-    background-color:#E4F0F4 ;
+    /* background-color:#E4F0F4 ; */
 }
 .textLogoRouge{
     /* display: flex; */
@@ -113,36 +132,44 @@ margin: auto;
     height: auto;
 }
 
+.btn{
+    font-size: 16px;
+    width: 16em;
+    padding: 4%;
+}
+
 .btn1{
     display: flex;
     justify-content: center;
-    padding: 1%;
+    /* padding: 1%; */
     color: white;
     font-weight: bold;
-    font-size: small;
+    /* font-size: small; */
     font-weight: 600;
     background-color: #53618A;
      border-radius: 24px;
     border-color:#53618A;
-    margin: 2em;
-    margin-bottom: 0,5;
-    margin-top: 0;
-    min-width: 200px;
+    margin: 1em;
+    /* margin-bottom: 0,5; */
+    /* min-width: 200px; */
     height: 48px;
+    /* ajout media */
+        /* display: inline-block; */
+
 }
 
 .btn2{
-    padding: 1% 1% 1% 1%;
+    /* padding: 1% 1% 1% 1%; */
     color: #0d0d0e;
-    
-    font-size: small;
     font-weight: 600;
     background-color: #f1f2f300;
     border-radius: 24px;
-    
-    margin-left: 2em;
-    margin-bottom: 2em;
-    min-width: 200px;
+    margin: 1em;
+    /* /* margin-left: 2em; */
+    margin-bottom: 2em; */
+    /* min-width: 200px; */
+      /* ajout media */
+        /* display: inline-block; */
    
 }
 
@@ -447,7 +474,7 @@ padding-bottom: 2%;
     background-image: url(IMG/NEWshop_disney_generic_banner_fy24_short_hero_v1_ab81a272.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 80%;
    padding: 16%;
 
 }
@@ -526,6 +553,79 @@ margin: 0 auto;
     font-size: 1.125rem;
     line-height: 1.5rem;
     margin-bottom: 1%;
+}
+
+/* --------------------   SECTION 8   ------------------------------------ */
+
+.divSection8{
+    margin: 0 auto;
+    width: 80%;
+
+}
+#titleCard8{
+    color: #222;
+    font-size: 30px;
+    display: flex;
+    justify-content: center ;
+    margin: 3%;
+    padding-bottom: 0px;
+    font-weight: 500;
+}
+
+.divCards8 {
+background-color: #F1F2F3;
+margin: 0 auto;
+padding-right: 80px;
+padding-left: 80px;
+padding-top: 20px;
+padding-bottom: 2%;
+}
+
+.card8{
+    /* display: flex; */
+    background-image: url(IMG/crm-generic_short-hero_r_e8f9f2e1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+   padding: 16%;
+
+}
+
+.pSection8{
+    display: block;
+width: 25%;
+color:#FFFFFF;
+padding-left: 9%;
+ padding-bottom: 13%;
+}
+
+#decouvrir{
+    width: 25%;
+    padding-left: 9%;
+    margin-top: -3%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.imgCard6{
+width: 100%;
+}
+
+#btnRejoignez{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    font-weight: 600;
+    background-color: #53618A;
+     border-radius: 24px;
+    border-color:#53618A;
+    margin: 2em;
+    margin-bottom: 0,5;
+    margin-top: 0;
+    /* min-width: 200px; */
+    /* height: 48px; */
 }
 
 
@@ -679,49 +779,26 @@ html {
     .nav{
         display: none;
     }
-/*  HEAD -------------------------------- */
-    .header 
-{
-    display: flex;
-}
-.logo{
-    width: 100px;
-}
-
-ul, li{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2%;
-    font-weight: bold;
-    font-size: small;
-}
-
-a{
-    text-decoration: none;
-}
-.navBar{
-    display: flex;
-    margin: 1%;
-}
 
 /* -----  HEADER --------------- */
 .sectionHeader{
-    background-image: url(IMG/lilo_stitch_hero_4009_r_e7d96ac6.jpg);
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-    /* width: 488px; */
-    /* height: 366px; */
-    /* padding: 0; */
-    /* margin: 0; */
+    /* background-image: url(IMG/lilo_stitch_hero_4009_r_e7d96ac6.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
 }
 
 .heroIMG{
-    /* display: flex; */
-    justify-content: center;
     max-width: 100%;
-    /* width: 1264px; */
+    /* width: 550px; */
+    position: absolute;
+    flex-wrap: wrap;
+    top: 50px;
+    display: flex;
+    justify-content: center;
     transition: transform .5s ease;
 }
 .heroIMG:hover{
@@ -729,15 +806,29 @@ transform: scale(1.05);
 }
 
 .divLogoRouge{
-margin: 9em;
-margin-top: 0;
-margin-bottom: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+position: absolute;
+margin: 0 auto;
+/* essai */
+/* top: 263px; */
+top: 305px;
+left: -45;
+/* width: 80%; */
+/* ancien */
+/* top: 271px;
+left: 79px;
+width: 80%; */
+background-color: #E4F0F4;
 }
 
 .logoRouge{
 width: 30%;
-/* width: 380px; */
 text-align: center;
+position: absolute;
+top: 305px;
+left: -45px;
 }
 
 .subtitle{
@@ -749,16 +840,18 @@ margin: auto;
 
 .divBTN{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color:#E4F0F4 ;
 }
 .textLogoRouge{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
     font-size: large;
     font-weight: 350;
-    margin-left : 2em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    height: auto;
+    margin: 0 auto;
 }
 
 .btn1{
@@ -799,7 +892,8 @@ margin: auto;
 /* --------  Section 2 ------------------ */
 
 .divCards2 {
-
+/* padding-top: 50%; */
+padding-top: 30%;
 }
 .card2{
     /* margin: 1%; */
@@ -940,7 +1034,4 @@ margin-bottom: 0%;
     font-size: 0.75em;  
 }
 
-
-
 }
-
